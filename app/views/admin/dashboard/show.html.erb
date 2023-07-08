@@ -16,7 +16,7 @@
         </thead>
         <tbody>
           <tr>
-            <td><%= link_to @products_count, admin_products_path%></td>
+            <td><%= link_to @products_count, [:admin, :products]%></td>
           </tr>
         </tbody>
       </table>
@@ -34,7 +34,7 @@
         </thead>
         <tbody>
           <tr>
-            <td><%= @categories_count %></td>
+            <td><%= link_to @categories_count, [:admin, :categories]%></td>
           </tr>
         </tbody>
       </table>
