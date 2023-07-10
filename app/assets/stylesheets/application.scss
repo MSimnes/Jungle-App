@@ -111,3 +111,12 @@ form.button_to {
 .text-danger {
   color: #f38792 !important;
 }
+
+// remove hover from signed in as...
+.no-hover {
+  pointer-events: none;
+  cursor: default;
+  .user-name {
+    color: #ffffffcf;
+  }
+}
