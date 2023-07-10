@@ -1,6 +1,6 @@
 <h1>Login</h1>
 
-<%= form_for :session, url: login_path do |f| %>
+<%= form_with url: sessions_path, method: :post do |f| %>
 
   Email: <%= f.text_field :email %><br />
   Password: <%= f.password_field :password %><br />
@@ -9,4 +9,4 @@
 
 <% end %>
 
-<%= link_to "Sign Up", signup_path %>
+<%= link_to "Sign Up", '/users/new' %>
