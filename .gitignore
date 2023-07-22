@@ -13,7 +13,7 @@
 /vendor/bundle
 
 # Ignore db creds / settings
-/config/database.yml
+# /config/database.yml
 
 *.rbc
 capybara-*.html
